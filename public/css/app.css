@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap);* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-inline {
+  list-style: none;
+}
+.list-inline li {
+  display: inline-block;
+}
+.list-inline li a {
+  display: inline-block;
+  padding: 15px 10px;
+  margin: 0 10px;
+  color: black;
+  font-size: 26px;
+  font-weight: 700;
+}
+.list-inline li a.active, .list-inline li a:hover {
+  background-color: #b3e5fc;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+header img {
+  margin: 30px 0;
+}
+
+main {
+  padding: 40px;
+  background-image: url("../img/fondo-pag-speciali.jpg");
+}
+main h2 {
+  margin: 20px 0;
+  font-size: 32px;
+  color: #264d8a;
+  text-transform: uppercase;
+}
+main .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .cards .card {
+  position: relative;
+  width: calc(100% / 3 - 10px);
+  margin: 5px;
+}
+main .cards .card img {
+  width: 100%;
+  display: block;
+}
+main .cards .card .card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(38, 77, 138, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+main .cards .card .card-text a {
+  color: white;
+  font-size: 32px;
+}
+main .cards .card .card-text a:hover {
+  text-decoration: underline;
+}
+main .cards .card:hover > .card-text {
+  opacity: 1;
+}
+
+footer {
+  padding-top: 60px;
+  color: #848ea1;
+}
+footer img {
+  width: 100%;
+  margin-top: 20px;
+}

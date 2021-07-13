@@ -1,0 +1,55 @@
+main {
+    padding: 40px;
+    background-image: url('../img/fondo-pag-speciali.jpg');
+
+    h2 {
+        margin: 20px 0;
+        font-size: 32px;
+        color: $mainColor;
+        text-transform: uppercase;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+
+        .card {
+            position: relative;
+            width: calc(100% / 3 - 10px);
+            margin: 5px;
+
+            img {
+               width: 100%; 
+               display: block;
+            }
+
+            .card-text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                text-align: center;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba($mainColor, 0.6);
+                opacity: 0;
+                transition: opacity .3s;
+
+                a {
+                    color: white;
+                    font-size: 32px;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            &:hover > .card-text {
+                opacity: 1;
+            }
+        }
+    }
+}
