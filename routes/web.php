@@ -13,43 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/prodotti', function () {
-    $pasta = config("pasta");
+Route::get('/prodotti', 'ProductController@index')->name("prodotti");
 
-    $lunghe = [];
-    $corte = [];
-    $cortissime = [];
+Route::get('/', 'HomeController@home')->name("home");
 
-    foreach($pasta as $item) {
-        switch($item["tipo"]) {
-            case 'corta':
-                $corte[] = $item;
-                break;
-            case 'lunga':
-                $lunghe[] = $item;
-                break;
-            case 'cortissima':
-                $cortissime[] = $item;
-                break;
-
-        }
-    }
-
-    // dump($lunghe, $corte, $cortissime);
-
-    return view('prodotti',
-        [
-            "lunghe" => $lunghe,
-            "corte" => $corte,
-            "cortissime" => $cortissime
-        ]
-    );
-});
-
-Route::get('/', function () { 
-    return view('home');
-});
-
-Route::get('/le-ultime-novita', function () { 
-    return view('news');
-});
+Route::get('/il-nostro-blog', 'HomeController@news')->name("news");

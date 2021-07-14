@@ -6,8 +6,8 @@
 </section>
 @endsection
 
-@section('page-title', "Molisana | Home")
+@section('page-title', $title)
 
-@section('head')
+{{-- @section('head')
 <link rel="stylesheet" href="{{ asset("css/home.css") }}">
-@endsection
+@endsection --}}

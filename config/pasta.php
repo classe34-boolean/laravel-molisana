@@ -4,18 +4,16 @@ $data = [
     [
         // secondo livello (array associativo)
         "src" => "https://www.lamolisana.it/wp-content/uploads/2021/04/1-spaghetto-quadrato.jpg",
-        "src-h" => "https://www.lamolisana.it/wp-content/uploads/2017/06/4-spaghetto-quadrato-bucato-h.jpg",
-        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2017/06/4-spaghetto-quadrato-bucato-p.jpg",
-        "titolo" => "N.4 Spaghetto Quadrato Bucato",
+        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2021/03/test-pack-lunga.jpg",
+        "titolo" => "N.1 Spaghetto Quadrato",
         "tipo" => "lunga",
-        "cottura" => "6 min",
+        "cottura" => "13 min",
         "peso" => "500g",
-        "descrizione" => "È la vera rivelazione della gamma! Lo Spaghetto Quadrato Bucato n.4 fa pensare subito ad una pasta molto succulenta che ha lo stesso potenziale dello Spaghetto Quadrato (N.1 Spaghetto Quadrato). La sua consistenza soda si sprigiona in bocca con un’esplosione di emozioni, grazie agli spessori corposi, al colore elegantemente ambrato, alla texture delicatamente ruvida, cangiante e piacevolissima al tatto che trattiene il condimento sulla superficie. <br> Da provare per rivoluzionare le sorti del primo piatto sia a casa che al ristorante.Dedicato a chi in cucina ama sperimentare nuove forme del gusto, ma vuole stupire affidandosi ad una pasta che garantisce ottime performance in cottura, lo Spaghetto Quadrato Bucato n .4 è il formato perfetto che racchiude tutte caratteristiche uniche di Pasta La Molisana. <br> Da provare per quelli che… il Bucatino già mi piace, lo Spaghetto Quadrato Bucato n .4 sarà il paradiso della pasta!"
+        "descrizione" => "È un cult indiscusso, il nostro portavoce nel mondo. Piace perché è carnoso e dà un piacere intenso e appagante. Lo Spaghetto Quadrato 1  è ottimo con tutte le preparazioni, in più ha una tenacia incredibile e praticamente non scuoce mai! <br>Nasce dalla tradizione abruzzese-molisana, quando era fatto in casa con un attrezzo speciale che sembra quasi una chitarrina o una cetra ed era preferibilmente all'uovo. Il nome che lo identifica è Spaghetto alla chitarra."
     ],
     [
         "src" => "https://www.lamolisana.it/wp-content/uploads/2021/04/5-fettuccine.jpg",
-        "src-h" => "https://www.lamolisana.it/wp-content/uploads/2017/06/5-fettuccine-h.jpg",
-        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2017/06/5-fettuccine-p-2018.jpg",
+        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2021/03/fettuccine-classiche.jpg",
         "titolo" => "N.5 Fettuccine",
         "tipo" => "lunga",
         "cottura" => "13 min",
@@ -24,8 +22,7 @@ $data = [
     ],
     [
         "src" => "https://www.lamolisana.it/wp-content/uploads/2021/04/6-linguine.jpg",
-        "src-h" => "https://www.lamolisana.it/wp-content/uploads/2017/06/6-linguine-h.jpg",
-        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2017/06/6-linguine-p-2018.jpg",
+        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2021/03/linguine-classiche.jpg",
         "titolo" => "N.6 Linguine",
         "tipo" => "lunga",
         "cottura" => "12 min",
@@ -34,8 +31,7 @@ $data = [
     ],
     [
         "src" => "https://www.lamolisana.it/wp-content/uploads/2021/04/7-mezze-linguine.jpg",
-        "src-h" => "https://www.lamolisana.it/wp-content/uploads/2017/06/7-mezze-linguine-h.jpg",
-        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2017/06/7-mezze-linguine-p-2018.jpg",
+        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2021/03/mezze-linguine-classiche.jpg",
         "titolo" => "N.7 Mezze Linguine",
         "tipo" => "lunga",
         "cottura" => "11 min",
@@ -44,8 +40,7 @@ $data = [
     ],
     [
         "src" => "https://www.lamolisana.it/wp-content/uploads/2021/04/11-spaghettino-quadrato.jpg",
-        "src-h" => "https://www.lamolisana.it/wp-content/uploads/2017/06/11-spaghettino-quadrato-h.jpg",
-        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2017/06/11-spaghettino-quadrato-p.jpg",
+        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2021/03/spaghettino-quadrato-classiche.jpg",
         "titolo" => "n.11 Spaghettino Quadrato",
         "tipo" => "lunga",
         "cottura" => "9 min",
@@ -54,8 +49,7 @@ $data = [
     ],
     [
         "src" => "https://www.lamolisana.it/wp-content/uploads/2021/05/38-mezze-maniche.jpg",
-        "src-h" => "https://www.lamolisana.it/wp-content/uploads/2019/02/38-mezze-maniche-h.jpg",
-        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2019/02/38-mezze-maniche-p.jpg",
+        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2021/05/mezze-maniche.jpg",
         "titolo" => "N.38 Mezze maniche",
         "tipo" => "corta",
         "cottura" => "12 min",
@@ -64,8 +58,7 @@ $data = [
     ],
     [
         "src" => "https://www.lamolisana.it/wp-content/uploads/2021/05/44-sedani.jpg",
-        "src-h" => "https://www.lamolisana.it/wp-content/uploads/2017/07/44-sedani-h.jpg",
-        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2017/07/44-sedani-p-2018.jpg",
+        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2021/05/sedani.jpg",
         "titolo" => "N.44 Sedani",
         "tipo" => "corta",
         "cottura" => "8 min",
@@ -74,8 +67,7 @@ $data = [
     ],
     [
         "src" => "https://www.lamolisana.it/wp-content/uploads/2021/05/49-sedani.jpg",
-        "src-h" => "https://www.lamolisana.it/wp-content/uploads/2017/07/49-sedanini-h.jpg",
-        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2017/07/49-sedanini-p-2018.jpg",
+        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2021/05/sedanini.jpg",
         "titolo" => "N.49 Sedanini",
         "tipo" => "corta",
         "cottura" => "8 min",
@@ -84,8 +76,7 @@ $data = [
     ],
     [
         "src" => "https://www.lamolisana.it/wp-content/uploads/2021/05/53-lumachine.jpg",
-        "src-h" => "https://www.lamolisana.it/wp-content/uploads/2017/07/53-lumachine-h.jpg",
-        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2017/07/53-lumachine-p-2018.jpg",
+        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2021/05/lumachine.jpg",
         "titolo" => "N.53 Lumachine",
         "tipo" => "corta",
         "cottura" => "12 min",
@@ -94,8 +85,7 @@ $data = [
     ],
     [
         "src" => "https://www.lamolisana.it/wp-content/uploads/2021/05/55-chifferi-rigati.jpg",
-        "src-h" => "https://www.lamolisana.it/wp-content/uploads/2017/07/55-chifferi-rigati-h.jpg",
-        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2017/07/55-chifferi-rigati-p-2018.jpg",
+        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2021/05/chifferi-rigati-1.jpg",
         "titolo" => "N.55 Chifferi rigati",
         "tipo" => "corta",
         "cottura" => "12 min",
@@ -104,8 +94,7 @@ $data = [
     ],
     [
         "src" => "https://www.lamolisana.it/wp-content/uploads/2021/05/58-misto-corto.jpg",
-        "src-h" => "https://www.lamolisana.it/wp-content/uploads/2017/07/58-misto-corto-h.jpg",
-        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2017/07/58-misto-corto-p.jpg",
+        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2021/05/misto-corto.jpg",
         "titolo" => "N.58 Misto corto",
         "tipo" => "corta",
         "cottura" => "9 min",
@@ -114,8 +103,7 @@ $data = [
     ],
     [
         "src" => "https://www.lamolisana.it/wp-content/uploads/2021/06/84-ditale-quadrato.jpg",
-        "src-h" => "https://www.lamolisana.it/wp-content/uploads/2018/06/84-ditale-quadrato-h.jpg",
-        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2018/06/84-ditale-quadrato-p.jpg",
+        "src-p" => "https://www.lamolisana.it/wp-content/uploads/2021/06/ditali-quadrati.jpg",
         "titolo" => "N.84 Ditale Quadrato",
         "tipo" => "cortissima",
         "cottura" => "12 min",
