@@ -3,9 +3,9 @@
     <div class="cards">
         @foreach ($array as $item)
             <div class="card">
-                <img src="{{ $item["src"] }}" alt="{{ $item["titolo"] }}">
+                <img src="{{ $item->src }}" alt="{{ $item->titolo }}">
                 <div class="card-text">
-                    <a href="#">{{ $item["titolo"] }}</a>
+                    <a href="#">{{ $item->titolo }}</a>
                 </div>
             </div>
         @endforeach
